@@ -15,6 +15,6 @@ export class AppComponent  {
     lessText: 'show less',
     moreText: 'show more',
     showEllipse: true,
-    isExpanded: false
+    expanded: false
   };
 }

@@ -1,4 +1,4 @@
-<h2>ngx-text-expander</h2>
+<h2 class="header">ngx-text-expander</h2>
 
 <h3>Sample1: Simple</h3>
 <ngx-text-expander
@@ -46,8 +46,8 @@
   </div>
   
   <div class="row">
-        <span class="col-label">isExpanded</span>
-        <input [(ngModel)]="config1.isExpanded"  type="checkbox">
+        <span class="col-label">expanded</span>
+        <input [(ngModel)]="config1.expanded"  type="checkbox">
   </div>
 </div>
 
@@ -59,6 +59,6 @@
         [(less-text)]="config1.lessText"
         [(more-text)]="config1.moreText"
         [(show-ellipse)]="config1.showEllipse"
-        [(expanded)]="config1.isExpanded"
+        [(expanded)]="config1.expanded"
         >
 </ngx-text-expander>
